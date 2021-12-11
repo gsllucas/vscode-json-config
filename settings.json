@@ -1,47 +1,30 @@
 {
+  "workbench.colorTheme": "Default Dark+",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 20,
-  "editor.fontFamily": "JetBrains Mono Regular, Fira Code Regular, Consolas",
-  "editor.fontWeight": "bold",
-  "editor.fontLigatures": true,
-  "editor.letterSpacing": 0,
   "editor.formatOnSave": true,
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.fixAll.tslint": true,
-      "source.fixAll.stylelint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true
   },
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "bracket-pair-colorizer-2.showVerticalScopeLine": false,
-  "editor.autoClosingBrackets": true,
+  "editor.autoClosingBrackets": "always",
   "editor.suggestOnTriggerCharacters": true,
-  "workbench.preferredDarkColorTheme": "Dracula",
-  "workbench.preferredHighContrastColorTheme": "Dracula",
-  "workbench.preferredLightColorTheme": "Dracula",
   "editor.linkedEditing": true,
-  "workbench.colorTheme": "Dracula",
   "[dart]": {
-      "editor.formatOnSave": true,
-      "editor.formatOnType": true,
-      "editor.rulers": [
-          80
-      ],
-      "editor.selectionHighlight": false,
-      "editor.suggest.snippetsPreventQuickSuggestions": false,
-      "editor.suggestSelection": "first",
-      "editor.tabCompletion": "onlySnippets",
-      "editor.wordBasedSuggestions": false
-  },
-  "terminal.integrated.defaultProfile.windows": "C:\\Program Files\\Git\\bin\\bash.exe (migrated)",
-  "terminal.integrated.profiles.windows": {
-      "C:\\Program Files\\Git\\bin\\bash.exe (migrated)": {
-          "path": "C:\\Program Files\\Git\\bin\\bash.exe",
-          "args": []
-      }
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
   }
 }
