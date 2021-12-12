@@ -17,6 +17,7 @@
   "editor.autoClosingBrackets": "always",
   "editor.suggestOnTriggerCharacters": true,
   "editor.linkedEditing": true,
+  "editor.formatOnSaveMode": "modifications",
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
