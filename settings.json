@@ -1,9 +1,10 @@
 {
-  "workbench.colorTheme": "Default Dark+",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
   "editor.formatOnSave": true,
-  "editor.fontFamily": "'Menlo'",
+  "editor.fontFamily": "'Fira Code', 'Menlo', 'Consolas', sans-serif",
+  "editor.fontSize": 13,
+  "editor.fontWeight": "normal",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.tabSize": 2,
@@ -18,7 +19,13 @@
   "editor.suggestOnTriggerCharacters": true,
   "editor.linkedEditing": true,
   "editor.formatOnSaveMode": "modifications",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "bracketPairColorizer.depreciation-notice": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
   "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.rulers": [80],
@@ -26,6 +33,17 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
-  }
+    "editor.wordBasedSuggestions": false,
+    "editor.formatOnSaveMode": "modifications"
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+  },
+  "dart.cliConsole": "terminal",
+  "dart.showDartDeveloperLogs": false,
+  "dart.flutterRunLogFile": null,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.singleQuote": true
 }
