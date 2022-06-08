@@ -3,7 +3,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "editor.formatOnSave": true,
   "editor.fontFamily": "'Fira Code', 'Menlo', 'Consolas', sans-serif",
-  "editor.fontSize": 13,
+  "editor.fontSize": 12.5,
   "editor.fontWeight": "normal",
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
